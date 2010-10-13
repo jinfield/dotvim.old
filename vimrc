@@ -12,7 +12,7 @@ set dir=/var/tmp,/tmp             " dir for swapfile
 set nofoldenable                  " turn off folding
 set splitbelow splitright         " new window placement
 set list listchars=tab:»·,trail:·
-set statusline=%<%f\ %h%m%r\ %y\ %=%-16(\ %l,%c-%v\ %)%P
+set statusline=%<%f\ %h%m%r\ %y\ %{fugitive#statusline()}%=%-16(\ %l,%c-%v\ %)%P
 
 " Enable 256 color xterm support
 au VimEnter * if &term == 'xterm' | set t_Co=256 | endif
