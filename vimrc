@@ -17,6 +17,8 @@ set statusline=%<%f\ %h%m%r\ %y\ %=%-16(\ %l,%c-%v\ %)%P
 " Enable 256 color xterm support
 au VimEnter * if &term == 'xterm' | set t_Co=256 | endif
 
+colorscheme wombat256mod
+
 if has("gui_running")
   set guifont=Monospace\ 10
   set cursorline
