@@ -26,3 +26,8 @@ if has("gui_running")
   set co=115
   set lines=40
 endif
+
+" Settings for tpope's surround plugin
+let g:surround_45 = "<% \r -%>"
+let g:surround_61 = "<%= \r %>"
+autocmd FileType php let b:surround_45 = "<?php \r ?>"
