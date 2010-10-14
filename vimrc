@@ -46,3 +46,6 @@ map <silent> <M-d> :execute 'NERDTreeToggle'<CR>
 " Session plugin settings
 let g:session_autosave = 1
 let g:session_autoload = 1
+
+" Set filetype for nginx confs
+au BufRead,BufNewFile /usr/local/conf/* set ft=nginx

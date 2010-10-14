@@ -28,3 +28,6 @@
 [submodule "bundle/fontsize"]
 	path = bundle/fontsize
 	url = git://github.com/vim-scripts/fontsize.vim.git
+[submodule "bundle/nginx"]
+	path = bundle/nginx
+	url = git://github.com/vim-scripts/nginx.vim.git
