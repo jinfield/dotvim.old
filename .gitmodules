@@ -22,3 +22,6 @@
 [submodule "bundle/xptemplate"]
 	path = bundle/xptemplate
 	url = git@github.com:jinfield/xptemplate.git
+[submodule "bundle/session"]
+	path = bundle/session
+	url = git://github.com/vim-scripts/session.vim--Odding.git

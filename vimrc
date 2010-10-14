@@ -37,3 +37,7 @@ autocmd User Rails silent! Rlcd
 
 " NERDTree settings
 map <silent> <M-d> :execute 'NERDTreeToggle'<CR>
+
+" Session plugin settings
+let g:session_autosave = 1
+let g:session_autoload = 1
