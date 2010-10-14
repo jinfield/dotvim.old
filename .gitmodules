@@ -25,3 +25,6 @@
 [submodule "bundle/session"]
 	path = bundle/session
 	url = git://github.com/vim-scripts/session.vim--Odding.git
+[submodule "bundle/fontsize"]
+	path = bundle/fontsize
+	url = git://github.com/vim-scripts/fontsize.vim.git
