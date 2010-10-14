@@ -35,3 +35,6 @@ autocmd FileType php let b:surround_45 = "<?php \r ?>"
 " Settings for rails plugin
 let g:rails_default_file='config/database.yml'
 autocmd User Rails silent! Rlcd
+
+" NERDTree settings
+map <silent> <M-d> :execute 'NERDTreeToggle'<CR>
