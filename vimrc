@@ -49,3 +49,14 @@ let g:session_autoload = 1
 
 " Set filetype for nginx confs
 au BufRead,BufNewFile /usr/local/conf/* set ft=nginx
+
+" XPTemplate setings
+let g:xptemplate_vars = 'author=J.Infield&email=jinfield@gmail.com&SParg='
+let g:xptemplate_bundle = 'avascript_jquery'
+
+" Misc mappings
+map <silent> <M-c> :lcd %:p:h <CR>   " change to cwd of current file
+imap <C-Enter> <Down>
+imap <C-BS> <C-o>cc
+imap <M-o> <CR><CR><Up><Space><Space>
+imap <silent> <M-j> <C-o>J
