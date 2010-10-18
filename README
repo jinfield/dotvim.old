@@ -1,4 +1,9 @@
 VIM configs
+-----------
 
-clone to ~/.vim
-link ~/.vim/vimrc to ~/.vimrc
+Installation instructions:
+
+    clone to ~/.vim
+    link ~/.vim/vimrc to ~/.vimrc
+    run git submodule update --init --recursive
+
