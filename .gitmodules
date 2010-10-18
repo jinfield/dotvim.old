@@ -22,15 +22,12 @@
 [submodule "bundle/xptemplate"]
 	path = bundle/xptemplate
 	url = git@github.com:jinfield/xptemplate.git
-[submodule "bundle/session"]
-	path = bundle/session
-	url = git://github.com/vim-scripts/session.vim--Odding.git
 [submodule "bundle/fontsize"]
 	path = bundle/fontsize
-	url = git://github.com/vim-scripts/fontsize.vim.git
+	url = git@github.com:jinfield/vim-fontsize.git
 [submodule "bundle/nginx"]
 	path = bundle/nginx
-	url = git://github.com/vim-scripts/nginx.vim.git
+	url = git@github.com:jinfield/vim-nginx.git
 [submodule "bundle/mayansmoke"]
 	path = bundle/mayansmoke
 	url = git@github.com:jinfield/mayansmoke.git
