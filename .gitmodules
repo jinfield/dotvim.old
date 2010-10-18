@@ -33,4 +33,4 @@
 	url = git://github.com/vim-scripts/nginx.vim.git
 [submodule "bundle/mayansmoke"]
 	path = bundle/mayansmoke
-	url = git://github.com/vim-scripts/mayansmoke.git
+	url = git@github.com:jinfield/mayansmoke.git
