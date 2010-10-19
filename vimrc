@@ -24,6 +24,11 @@ if has("gui_running")
   set go=aegitt
   set co=115
   set lines=40
+  " Map Alt-keys for fontsize
+  nmap <M-+> <Plug>FontsizeInc
+  nmap <M-=> <Plug>FontsizeInc
+  nmap <M--> <Plug>FontsizeDec
+  nmap <M-0> <Plug>FontsizeDefault
   " GUI only color scheme
   colorscheme mayansmoke
 endif
