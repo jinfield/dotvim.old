@@ -28,3 +28,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = git@github.com:jinfield/vim-nginx.git
+[submodule "bundle/mayansmoke"]
+	path = bundle/mayansmoke
+	url = git@github.com:jinfield/mayansmoke.git
