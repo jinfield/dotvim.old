@@ -22,8 +22,8 @@ if has("gui_running")
   set guifont=Monospace\ 10
   set cursorline
   set go=aegitt
-  set co=115
-  set lines=40
+  set co=102
+  set lines=35
   " Map Alt-keys for fontsize
   nmap <M-+> <Plug>FontsizeInc
   nmap <M-=> <Plug>FontsizeInc
@@ -62,3 +62,5 @@ imap <C-Enter> <Down>
 imap <C-BS> <C-o>cc
 imap <M-o> <CR><CR><Up><Space><Space>
 imap <silent> <M-j> <C-o>J
+map <F1> <Esc>
+imap <F1> <Esc>
