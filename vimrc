@@ -18,12 +18,28 @@ au VimEnter * if &term == 'xterm' | set t_Co=256 | endif
 
 colorscheme wombat256mod
 
+function! GeomToggle()
+  if (has("gui"))
+    if s:gui_size=='norm'
+      let s:gui_size='big'
+      set columns=102
+      set lines=32
+    else
+      set columns=120
+      set lines=40
+      let s:gui_size='norm'
+    endif
+  endif
+endfunction
+let s:gui_size='norm'
+
 if has("gui_running")
   set guifont=Monospace\ 10
   set cursorline
   set go=aegitt
-  set co=102
-  set lines=35
+  call GeomToggle()
+  nmap <F4> :call GeomToggle()<CR>
+  imap <F4> <Esc><F4>a
   " Map Alt-keys for fontsize
   nmap <M-+> <Plug>FontsizeInc
   nmap <M-=> <Plug>FontsizeInc
