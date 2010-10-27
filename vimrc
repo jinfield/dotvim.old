@@ -60,17 +60,14 @@ autocmd User Rails silent! Rlcd
 
 " NERDTree settings
 map <silent> <M-d> :execute 'NERDTreeToggle'<CR>
-
-" Session plugin settings
-let g:session_autosave = 1
-let g:session_autoload = 1
+let g:NERDTreeWinSize=25
 
 " Set filetype for nginx confs
 au BufRead,BufNewFile /usr/local/conf/* set ft=nginx
 
 " XPTemplate setings
 let g:xptemplate_vars = 'author=J.Infield&email=jinfield@gmail.com&SParg='
-let g:xptemplate_bundle = 'avascript_jquery'
+let g:xptemplate_bundle = 'javascript_jquery'
 
 " Misc mappings
 map <silent> <M-c> :lcd %:p:h <CR>   " change to cwd of current file
