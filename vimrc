@@ -45,8 +45,6 @@ if has("gui_running")
   nmap <M-=> <Plug>FontsizeInc
   nmap <M--> <Plug>FontsizeDec
   nmap <M-0> <Plug>FontsizeDefault
-  " GUI only color scheme
-  colorscheme mayansmoke
 endif
 
 " Settings for tpope's surround plugin
