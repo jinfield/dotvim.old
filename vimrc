@@ -57,8 +57,8 @@ let g:rails_default_file='config/database.yml'
 autocmd User Rails silent! Rlcd
 
 " NERDTree settings
-map <silent> <M-d> :execute 'NERDTreeToggle'<CR>
-let g:NERDTreeWinSize=25
+map <silent> <leader>d :execute 'NERDTreeToggle'<CR>
+let g:NERDTreeWinSize=27
 
 " Set filetype for nginx confs
 au BufRead,BufNewFile /usr/local/conf/* set ft=nginx
@@ -68,7 +68,7 @@ let g:xptemplate_vars = 'author=J.Infield&email=jinfield@gmail.com&SParg='
 let g:xptemplate_bundle = 'javascript_jquery'
 
 " Misc mappings
-map <silent> <M-c> :lcd %:p:h <CR>   " change to cwd of current file
+map <leader>c :lcd %:p:h <CR>   " change to cwd of current file
 imap <C-Enter> <Down>
 imap <C-BS> <C-o>cc
 imap <M-o> <CR><CR><Up><Space><Space>
