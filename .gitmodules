@@ -24,7 +24,7 @@
 	url = git://github.com/jinfield/xptemplate.git
 [submodule "bundle/fontsize"]
 	path = bundle/fontsize
-	url = git://github.com.jinfield/vim-fontsize.git
+	url = git://github.com/jinfield/vim-fontsize.git
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = git://github.com/jinfield/vim-nginx.git
